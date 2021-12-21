@@ -13,6 +13,10 @@ a {
 	text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 img {
 	max-width: 100%;
 }
@@ -232,4 +236,159 @@ body {
 
 
 /* CSS modules.html */
+.site-content {
+  margin: 0;
+  padding: 0;
+  
+  max-width: 1920px;
+
+  background: #E5E5E5;
+}
+
+.conteiner {
+  margin: 0;
+  padding: 0;
+
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.head-panel {
+  margin: 0;
+  padding: 0;
+}
+
+.head-panel__img {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: block;
+  margin-top: 50px;
+}
+
+.head-panel__link {
+  margin: 0;
+  padding: 0;
+
+  margin-top: 25px;
+  
+  display: block;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.conteiner__title{
+  margin: 0;
+  padding: 0;
+
+  margin-top: 25px;
+
+  display: block;
+}
+
+.middel-panel {
+  margin: 0;
+  padding: 0;
+  
+  margin-top: 50px;
+}
+
+.middel-panel__cards {
+  margin: 0;
+  padding: 0;
+  
+  display: inline-block;
+  vertical-align: top;
+}
+
+.middel-panel__cards:nth-child(n+3) {
+  margin-top: 25px;
+} 
+
+
+
+.middel-panel__image {
+  margin: 0;
+  padding: 0;
+  
+  width: 572px;
+  height: 180px;
+}
+
+.middel-panel__wrap {
+  margin: 0;
+  padding: 0;
+
+
+  width: 572px;
+  height: 325px;
+
+  background: #fff;
+}
+
+.middel-panel__title {
+  margin: 0;
+  padding: 0;
+  
+  padding-top: 25px;
+  padding-left:25px;
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.middel-panel__list {
+  margin: 0;
+  padding: 0;
+
+  padding-left: 25px;
+}
+
+.middel-panel__list-element{
+  margin: 0;
+  padding: 0;
+}
+
+.middel-panel__list-link {
+  margin: 0;
+  padding: 0;
+
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: 400;
+}
+
+.middel-panel__num {
+  text-align: right;
+  padding-right: 25px;  
+  margin-bottom: 25px;
+
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  color: #EAEAEA;
+}
+
+.color{
+  color: #3F2AFF;
+}
+
+.conteiner__button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 74px;
+  
+  padding: 22px;
+
+  border: 1px solid #3F2AFF;
+
+  font-size: 18px;
+  font-weight: 700;
+}
+
 
