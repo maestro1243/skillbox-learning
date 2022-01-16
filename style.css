@@ -23,6 +23,7 @@ img {
 
 body {
 	font-family: Arial, Verdana, sans-serif;
+  background: #E5E5E5;
 }
 
 
@@ -236,20 +237,22 @@ body {
 
 
 /* CSS modules.html */
-.site-content {
+
+
+/* .site-content {
   margin: 0;
   padding: 0;
   
   max-width: 1920px;
 
   background: #E5E5E5;
-}
+} */
 
 .conteiner {
   margin: 0;
   padding: 0;
 
-  max-width: 1170px;
+  max-width: 1175px;
   margin: 0 auto;
 }
 
@@ -261,55 +264,97 @@ body {
 .head-panel__img {
   margin: 0;
   padding: 0;
+  
 }
 
 .logo {
   display: block;
   margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .head-panel__link {
   margin: 0;
   padding: 0;
-
-  margin-top: 25px;
+  margin-bottom: 25px;
   
+  width: 153px;
   display: block;
 
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
+  text-align: right;
+
+  background-image: url(img/Arrow\ 1.svg);
+  background-repeat: no-repeat;
+  background-position:left center;
 }
 
 .conteiner__title{
   margin: 0;
   padding: 0;
 
-  margin-top: 25px;
+  margin-bottom: 50px;
 
   display: block;
+
+  font-weight: 700;
 }
 
 .middel-panel {
   margin: 0;
   padding: 0;
-  
-  margin-top: 50px;
+
+  width: 1175px;
 }
 
 .middel-panel__cards {
+  position: relative;
+
   margin: 0;
   padding: 0;
   
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
+
+  width: 572px;
+  height: 505px;
+
+  background: #fff;
 }
 
-.middel-panel__cards:nth-child(n+3) {
-  margin-top: 25px;
+.middel-panel__cards_a{
+  background-image: url(img/photo-1.png);
+  background-repeat: no-repeat;
+}
+
+.middel-panel__cards_b{
+  background-image: url(img/photo-2.png);
+  background-repeat: no-repeat;
+}
+
+.middel-panel__cards_c{
+  background-image: url(img/photo-3.png);
+  background-repeat: no-repeat;
+}
+
+.middel-panel__cards_d{
+  background-image: url(img/photo-4.png);
+  background-repeat: no-repeat;
+}
+
+.middel-panel__cards:nth-child(n+1) { 
+  margin-bottom: 25px;
 } 
 
-
+.middel-panel__cards:nth-last-child(-n+2) {
+  margin:0;
+  padding:0;
+} 
+.middel-panel__cards:nth-child(2n+1) {
+  margin-right: 25px;
+} 
 
 .middel-panel__image {
   margin: 0;
@@ -319,16 +364,6 @@ body {
   height: 180px;
 }
 
-.middel-panel__wrap {
-  margin: 0;
-  padding: 0;
-
-
-  width: 572px;
-  height: 325px;
-
-  background: #fff;
-}
 
 .middel-panel__title {
   margin: 0;
@@ -340,6 +375,7 @@ body {
   font-size: 40px;
   font-weight: 700;
   line-height: 46px;
+
 }
 
 .middel-panel__list {
@@ -364,9 +400,11 @@ body {
 }
 
 .middel-panel__num {
-  text-align: right;
-  padding-right: 25px;  
-  margin-bottom: 25px;
+  position: absolute;
+  
+  bottom: -25px;
+  right: 25px;
+ 
 
   font-size: 40px;
   font-weight: 400;
