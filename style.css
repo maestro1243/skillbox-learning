@@ -302,21 +302,21 @@ body {
   font-weight: 700;
 }
 
-.middel-panel {
+.cards {
   margin: 0;
   padding: 0;
 
   width: 1175px;
 }
 
-.middel-panel__cards {
+.cards__list{
   position: relative;
 
   margin: 0;
   padding: 0;
-  
+  padding-top: 175px;
+
   display: inline-block;
-  vertical-align: middle;
 
   width: 572px;
   height: 505px;
@@ -324,48 +324,7 @@ body {
   background: #fff;
 }
 
-.middel-panel__cards_a{
-  background-image: url(img/photo-1.png);
-  background-repeat: no-repeat;
-}
-
-.middel-panel__cards_b{
-  background-image: url(img/photo-2.png);
-  background-repeat: no-repeat;
-}
-
-.middel-panel__cards_c{
-  background-image: url(img/photo-3.png);
-  background-repeat: no-repeat;
-}
-
-.middel-panel__cards_d{
-  background-image: url(img/photo-4.png);
-  background-repeat: no-repeat;
-}
-
-.middel-panel__cards:nth-child(n+1) { 
-  margin-bottom: 25px;
-} 
-
-.middel-panel__cards:nth-last-child(-n+2) {
-  margin:0;
-  padding:0;
-} 
-.middel-panel__cards:nth-child(2n+1) {
-  margin-right: 25px;
-} 
-
-.middel-panel__image {
-  margin: 0;
-  padding: 0;
-  
-  width: 572px;
-  height: 180px;
-}
-
-
-.middel-panel__title {
+.cards__title {
   margin: 0;
   padding: 0;
   
@@ -378,38 +337,59 @@ body {
 
 }
 
-.middel-panel__list {
+.cards__list-link {
   margin: 0;
   padding: 0;
-
   padding-left: 25px;
-}
 
-.middel-panel__list-element{
-  margin: 0;
-  padding: 0;
-}
-
-.middel-panel__list-link {
-  margin: 0;
-  padding: 0;
+  display: block;
 
   font-size: 20px;
   line-height: 33px;
   font-weight: 400;
 }
 
-.middel-panel__num {
+.cards__num {
   position: absolute;
   
   bottom: -25px;
   right: 25px;
- 
 
   font-size: 40px;
   font-weight: 400;
   line-height: 46px;
   color: #EAEAEA;
+}
+
+.cards__list:nth-child(n+1) { 
+  margin-bottom: 25px;
+} 
+
+.cards__list:nth-last-child(-n+2) {
+  margin:0;
+} 
+.cards__list:nth-child(2n+1) {
+  margin-right: 25px;
+}
+
+.image-1{
+  background-image: url(img/photo-1.png);
+  background-repeat: no-repeat;
+}
+
+.image-2{
+  background-image: url(img/photo-2.png);
+  background-repeat: no-repeat;
+}
+
+.image-3{
+  background-image: url(img/photo-3.png);
+  background-repeat: no-repeat;
+}
+
+.image-4{
+  background-image: url(img/photo-4.png);
+  background-repeat: no-repeat;
 }
 
 .color{
