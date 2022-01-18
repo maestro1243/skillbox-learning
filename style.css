@@ -317,7 +317,8 @@ body {
   padding-top: 175px;
 
   display: inline-block;
-
+  vertical-align: top;
+  
   width: 572px;
   height: 505px;
 
